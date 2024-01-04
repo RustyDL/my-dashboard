@@ -1,4 +1,3 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -41,7 +40,7 @@ export default function PermanentDrawerLeft() {
         anchor="left"
       >
         <Toolbar />
-        <h2>The King's Restaurant</h2>
+        <h2>The Kings Restaurant</h2>
         <Divider />
         <List>
           {['Dashboard', 'Facts Page', 'New Clients', 'Sales Obtained'].map((text) => (
