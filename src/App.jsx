@@ -1,14 +1,22 @@
 import './App.css'
-import PermanentDrawerLeft from './components/Sidebar'
-import Transaction from './components/TransactionBar'
+import Dashboard from './components/PrimaryDashboard'
+import TransactionBar from './components/TransactionBar'
+import LineData from './components/LineChart'
 
 function App() {
 
 
+
   return (
     <>
-      <PermanentDrawerLeft />
-      <Transaction />
+    <Dashboard/>
+    <br/>
+    <br/>
+     {/* <Heading/> */}
+     <LineData/>
+     <br/>
+     <br/>
+     <TransactionBar/>
     </>
   )
 }
