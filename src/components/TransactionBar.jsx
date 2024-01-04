@@ -1,4 +1,4 @@
-import { mockTransactions } from "../mockData"
+import { mockTransactions } from "./mockData"
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
