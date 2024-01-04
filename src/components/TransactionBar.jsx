@@ -1,30 +1,72 @@
-import React from "react";
-import { mockTransactions } from "./mockData"
-import Box from "@mui/material/Box";
+import React from 'react'
+import { mockTransactions } from "../MockData"
+import { DataGrid } from '@mui/x-data-grid';
 
-export default function TransactionsTable() {
+
+export default function TransactionBar() {
   return (
-    <Box sx={{ maxHeight: 200, maxWidth: 450, overflow: "auto", padding: 2 }}>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
-        <thead>
-          <tr>
-            <th style={{ border: "1px solid #ddd", padding: 8 }}>Text Id</th>
-            <th style={{ border: "1px solid #ddd", padding: 8 }}>User Name</th>
-            <th style={{ border: "1px solid #ddd", padding: 8 }}>Date</th>
-            <th style={{ border: "1px solid #ddd", padding: 8 }}>Cost</th>
-          </tr>
-        </thead>
-        <tbody>
-          {mockTransactions.map((transaction, index) => (
-            <tr key={index} style={{ borderBottom: "1px solid #ddd" }}>
-              <td style={{ border: "1px solid #ddd", padding: 8 }}>{transaction.txId}</td>
-              <td style={{ border: "1px solid #ddd", padding: 8 }}>{transaction.user}</td>
-              <td style={{ border: "1px solid #ddd", padding: 8 }}>{transaction.date}</td>
-              <td style={{ border: "1px solid #ddd", padding: 8 }}>{transaction.cost}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </Box>
+    <div style={{ height: 250, width: '100%' }}>
+      <DataGrid
+        columns={[{ field: 'txtId' }, { field: 'user'}, { field: 'date'}, { field: 'cost'}]}
+        rows={[
+          {
+      id: 1,
+      txtId: "01e4dsa",
+      user: "johndoe",
+      date: "2021-09-01",
+      cost: "43.95",
+    },
+    {
+      id: 2,
+      txtId: "0315dsaa",
+      user: "jackdower",
+      date: "2022-04-01",
+      cost: "133.45",
+    },
+    {
+      id: 3,
+      txtId: "01e4dsa",
+      user: "aberdohnny",
+      date: "2021-09-01",
+      cost: "43.95",
+    },
+    {
+      id: 4,
+      txtId: "51034szv",
+      user: "goodmanave",
+      date: "2022-11-05",
+      cost: "200.95",
+    },
+    {
+      id: 5,
+      txtId: "0a123sb",
+      user: "stevebower",
+      date: "2022-11-02",
+      cost: "13.55",
+    },
+    {
+      id: 6,
+      txtId: "01e4dsa",
+      user: "aberdohnny",
+      date: "2021-09-01",
+      cost: "43.95",
+    },
+    {
+      id: 7,
+      txtId: "120s51a",
+      user: "wootzifer",
+      date: "2019-04-15",
+      cost: "24.20",
+    },
+    {
+      id: 8,
+      txtId: "0315dsaa",
+      user: "jackdower",
+      date: "2022-04-01",
+      cost: "133.45",
+    },
+        ]}
+      />
+    </div>
   );
 }
