@@ -1,22 +1,16 @@
-import { useState } from "react";
-import "./App.css";
-import Dashboard from "./Components/Dashboard";
-import TransactionBar from "./Components/TransactionBar";
-import LineData from "./Components/LineChart";
+import './App.css'
+import PermanentDrawerLeft from './components/Sidebar'
+import Transaction from './components/TransactionBar'
 
 function App() {
+
+
   return (
     <>
-      <Dashboard />
-      <br />
-      <br />
-      {/* <Heading/> */}
-      <LineData />
-      <br />
-      <br />
-      <TransactionBar />
+      <PermanentDrawerLeft />
+      <Transaction />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+#transactions {
+  display: flex;
+  position: relative;
+  transform: translate(-90px, 0%);
+}
