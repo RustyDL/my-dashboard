@@ -1,10 +1,5 @@
 import { tokens } from "../theme";
 
-
-
-
-
-
 export const mockTransactions = [
   {
     txId: "01e4dsa",
@@ -164,41 +159,39 @@ export const mockLineData = [
       {
         x: "burger",
         y: 236,
-      }
-     
+      },
     ],
   },
-   {
-     id: "weekends",
-     color: tokens("dark").blueAccent[300],
-     data: [
-       {
-         x: "donut",
-         y: 212,
-       },
-       { 
+  {
+    id: "weekends",
+    color: tokens("dark").blueAccent[300],
+    data: [
+      {
+        x: "donut",
+        y: 212,
+      },
+      {
         x: "sandwich",
-         y: 190,
-       },
-       {
-         x: "fries",
-         y: 270,
-       },
-       {
-         x: "kebab",
-         y: 9,
-       },
-       {
-         x: "hotdog",
-         y: 75,
-       },
-       {
-         x: "burger",
-         y: 175,
-       }
-
-     ],
-   },
+        y: 190,
+      },
+      {
+        x: "fries",
+        y: 270,
+      },
+      {
+        x: "kebab",
+        y: 9,
+      },
+      {
+        x: "hotdog",
+        y: 75,
+      },
+      {
+        x: "burger",
+        y: 175,
+      },
+    ],
+  },
   {
     id: "holidays",
     color: tokens("dark").redAccent[200],
@@ -226,11 +219,10 @@ export const mockLineData = [
       {
         x: "burger",
         y: 152,
-      }
-
-     ],
-   },
- ];
+      },
+    ],
+  },
+];
 
 export const mockGeographyData = [
   {
