@@ -134,7 +134,7 @@ export const mockBarData = [
 // export const mockLineData = [
   // {
     id: "weekdays",
-    color: tokens("dark").greenAccent[500],
+   //  color: tokens("dark").greenAccent[500],
     data: [
       {
         x: "donut",
