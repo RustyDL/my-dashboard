@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function primaryDashboard() {
+export default function PrimaryDashboard() {
     const [successMessage, setSuccessMessage] = useState(null);
 
     async function handleClick() {
