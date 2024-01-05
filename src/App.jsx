@@ -3,7 +3,7 @@ import Dashboard from './components/PrimaryDashboard';
 import Transactions from './components/TransactionBar';
 import Sidebar from './components/Sidebar';
 import Header from "./components/header";
-import { mockTransactions } from './components/mockData';
+import { mockTransactions } from './components/mockData'; // Correct the import path
 import './App.css'
 
 function App() {
