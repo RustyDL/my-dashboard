@@ -130,8 +130,9 @@ export const mockBarData = [
   },
 ];
 
-export const mockLineData = [
-  {
+
+// export const mockLineData = [
+  // {
     id: "weekdays",
     color: tokens("dark").greenAccent[500],
     data: [
@@ -161,8 +162,8 @@ export const mockLineData = [
       }
      
     ],
-  },
-   {
+  // },
+  //  {
      id: "weekends",
      color: tokens("dark").blueAccent[300],
      data: [
@@ -192,8 +193,8 @@ export const mockLineData = [
        }
 
      ],
-   },
-  {
+  //  },
+  // {
     id: "holidays",
     color: tokens("dark").redAccent[200],
     data: [
@@ -223,8 +224,8 @@ export const mockLineData = [
       }
 
      ],
-   },
- ];
+  // },
+  // ];
 
 export const mockGeographyData = [
   {
