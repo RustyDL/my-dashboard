@@ -1,3 +1,4 @@
+import React from 'react';
 import { mockTransactions } from "./mockData";
 import Header from "./header";
 import Table from '@mui/material/Table';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; 
+import './header.css'; 
 
 const Header = ({ children }) => {
   return (
@@ -9,5 +9,5 @@ const Header = ({ children }) => {
   );
 };
 
-export default Header;
+export default Function Header;
 
