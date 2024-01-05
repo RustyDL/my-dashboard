@@ -1,6 +1,5 @@
-// import { tokens } from "../theme";
 
-export const rows = [
+export const mockTransactions = [
   {
     txId: "01e4dsa",
     user: "johndoe",
@@ -134,7 +133,7 @@ export const mockBarData = [
 export const mockLineData = [
   {
     id: "weekdays",
-    color: "green",
+    color: tokens("dark").greenAccent[500],
     data: [
       {
         x: "donut",
@@ -165,7 +164,7 @@ export const mockLineData = [
   },
    {
      id: "weekends",
-     color: "blue",
+     color: tokens("dark").blueAccent[300],
      data: [
        {
          x: "donut",
@@ -196,7 +195,7 @@ export const mockLineData = [
    },
   {
     id: "holidays",
-    color: "red",
+    color: tokens("dark").redAccent[200],
     data: [
       {
         x: "donut",
