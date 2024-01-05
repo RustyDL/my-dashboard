@@ -1,13 +1,13 @@
 import React from 'react';
-import { mockTransactions } from "./mockData";
-import Header from "./header";
+import Header from './header';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import { mockTransactions } from "./mockData";
 
-export function Transactions() {
+export default function Transactions() {
     return (
         <div>
             <>
@@ -22,7 +22,7 @@ export function Transactions() {
                     </TableHead>
                     <TableBody >
                         {mockTransactions.map((row) => (
-                            <TableRow key={row.id}>
+                            <TableRow key={row.txId}>
                                 <TableCell>{row.user}</TableCell>
                                 <TableCell>{row.date}</TableCell>
                                 <TableCell>{row.cost}</TableCell>
@@ -32,5 +32,5 @@ export function Transactions() {
                 </Table>
             </>
         </div>
-    )
+    );
 }
