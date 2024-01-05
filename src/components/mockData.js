@@ -1,4 +1,3 @@
-
 export const mockTransactions = [
   {
     txId: "01e4dsa",
