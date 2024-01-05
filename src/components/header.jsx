@@ -9,5 +9,4 @@ const Header = ({ children }) => {
   );
 };
 
-export default Function Header;
-
+export default Header;
