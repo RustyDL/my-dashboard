@@ -1,3 +1,4 @@
+
 export const mockTransactions = [
   {
     txId: "01e4dsa",
@@ -129,6 +130,101 @@ export const mockBarData = [
   },
 ];
 
+export const mockLineData = [
+  {
+    id: "weekdays",
+    color: tokens("dark").greenAccent[500],
+    data: [
+      {
+        x: "donut",
+        y: 200,
+      },
+      {
+        x: "sandwich",
+        y: 75,
+      },
+      {
+        x: "fries",
+        y: 36,
+      },
+      {
+        x: "kebab",
+        y: 216,
+      },
+      {
+        x: "hotdog",
+        y: 35,
+      },
+      {
+        x: "burger",
+        y: 236,
+      }
+     
+    ],
+  },
+   {
+     id: "weekends",
+     color: tokens("dark").blueAccent[300],
+     data: [
+       {
+         x: "donut",
+         y: 212,
+       },
+       { 
+        x: "sandwich",
+         y: 190,
+       },
+       {
+         x: "fries",
+         y: 270,
+       },
+       {
+         x: "kebab",
+         y: 9,
+       },
+       {
+         x: "hotdog",
+         y: 75,
+       },
+       {
+         x: "burger",
+         y: 175,
+       }
+
+     ],
+   },
+  {
+    id: "holidays",
+    color: tokens("dark").redAccent[200],
+    data: [
+      {
+        x: "donut",
+        y: 191,
+      },
+      {
+        x: "sandwich",
+        y: 136,
+      },
+      {
+        x: "fries",
+        y: 91,
+      },
+      {
+        x: "kebab",
+        y: 190,
+      },
+      {
+        x: "hotdog",
+        y: 211,
+      },
+      {
+        x: "burger",
+        y: 152,
+      }
+
+     ],
+   },
+ ];
 
 export const mockGeographyData = [
   {
